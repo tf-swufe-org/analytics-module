@@ -4,7 +4,7 @@ import PackageDescription
 let isLocalTestMode = true
 
 var deps: [Package.Dependency] = [
-    .package(url: "https://github.com/feathercms/feather-core", .branch("main")),//from: "1.0.0-beta"),
+    .package(url: "https://github.com/tomlee130/feather-core", .branch("main")),//from: "1.0.0-beta"),
     .package(url: "https://github.com/malcommac/UAParserSwift", from: "1.2.1"),
     .package(name: "ALanguageParser", url: "https://github.com/matsoftware/accept-language-parser", from: "1.0.0"),
     .package(url: "https://github.com/vapor/sql-kit.git", from: "3.0.0"),
